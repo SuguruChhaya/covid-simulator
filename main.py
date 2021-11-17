@@ -18,7 +18,7 @@ change_button_height = 25
 radius_size = 25
 fps = 10
 line_width = 5
-one_second_wait_time = 1000
+one_second_wait_time = 3000
 backtrack_show_time = 10000
 
 font = pygame.font.SysFont('comicsans', 30)
@@ -189,7 +189,8 @@ class MainGame():
                                 
                             elif (obj.text=="<-"):
                                 #backwarding = True
-                                self.backward()
+                                #self.backward()
+                                pass
                             elif (obj.text=="infect"):
                                 adding = False
                                 infecting = True
